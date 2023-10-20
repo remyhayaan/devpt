@@ -1,13 +1,23 @@
 import React from 'react'
 import Header from './Header'
-
+import { Link } from "react-router-dom";
 
 function Entry() {
 
     return (
         <div>
             <Header />
-            <div class = "product">
+            <section className="hero"  >
+      <div className="content">
+        <h1>Be Creative.</h1>
+        <p>
+          {" "}
+          Trust us to get you a home away from home
+        </p>
+        <a href="#">Start Now</a>
+      </div>
+    </section>
+             <div class = "product">
                 <h2 class = "product-category">Recommended for you</h2>
                 <div class = "product-container">
                     <div class = "product-card">
@@ -67,9 +77,8 @@ function Entry() {
     &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
     &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;{" "}
     <span>
-      <a href="./Ratings.js" className="right">
-        View all hostels
-      </a>
+    <Link to="./Ratings.js">View all hostels</Link>
+      
     </span>
   </h2>
   <br />

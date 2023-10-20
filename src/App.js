@@ -5,7 +5,7 @@ import Entry from './components/Entry';
 import Services from './components/Services';
 import Ratings from './components/Ratings';
 import MyBookings from './components/About';
-
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
         <Route path='/services' element={<Services />}/>
         <Route path='/ratings' element={< Ratings />}/>
       </Routes>
+      <Footer/>
     </div>
   );
 }

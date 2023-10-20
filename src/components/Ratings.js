@@ -6,6 +6,7 @@ function Ratings() {
     <div>
         <Header />
         <h1>Ratings</h1>
+        
     </div>
   )
 }

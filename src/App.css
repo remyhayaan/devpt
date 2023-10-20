@@ -426,7 +426,7 @@ html,body {
   
   .hero {
     display: flex;
-    height: 90vh;
+    height: 300px;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -438,7 +438,6 @@ html,body {
   }
   
   .content {
-    /* border: 1px purple solid; */
     display: flex;
     flex-direction: column;
     max-width: 1200px;

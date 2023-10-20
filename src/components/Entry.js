@@ -12,7 +12,7 @@ function Entry() {
                 <div class = "product-container">
                     <div class = "product-card">
                         <div class = "product-image">  
-                        <img src = "/public/logo192.png" class = "product-thumb" alt = ""/>
+                        <img src = "https://i.pinimg.com/564x/b1/04/5f/b1045fdf96ef94318d120bdd917ded2d.jpg" class = "product-thumb" alt = ""/>
                     </div>
                     <div class = "product-info">
                         <br/>

@@ -60,85 +60,93 @@ function Entry() {
             </div>
             </div>
     
-            <div class = "product">
-        <h2 class = "product-category">Popular Residences  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; <span><a href="./Ratings.js" class="right">View all hostels</a></span></h2>
-        <br/>
-        <div class = "product-container">
-            <div class = "product-card">
-                <div class = "product-image">
-                <img src = "./pictures/room1.jpg" class = "product-thumb" alt = ""/>
-            </div>
-            <div class = "product-info">
-            <h2 class = "product-brand">brand</h2>
-        <span class = "price">ugshs 52000</span><span class = "actual-price">ugshs 65000 </span>
-        </div>
-        </div>
-        <div class = "product-card">
-            <div class = "product-image">
-            <img src = "./pictures/room1.jpg" class = "product-thumb" alt = ""/>
-        </div>
-        <div class = "product-info">
-        <h2 class = "product-brand">brand</h2>
-        <span class = "price">ugshs 64000</span><span class = "actual-price">ugshs 85000 </span>
-        </div>
-        </div>
-        <div class = "product-card">
-            <div class = "product-image">
-            <img src = "./pictures/room1.jpg" class = "product-thumb" alt = ""/>
-        </div>
-        <div class = "product-info">
-        <h2 class = "product-brand">brand</h2>
-        <span class = "price">ugshs 52000</span><span class = "actual-price">ugshs 65000 </span>
-        </div>
-        </div>
-        <div class = "product-card">
-            <div class = "product-image">
-                
-            
-            <img src = "./pictures/room1.jpg" class = "product-thumb" alt = ""/>
+            <div className="product">
+  <h2 className="product-category">
+    Popular Residences &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+    &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
+    &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+    &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;{" "}
+    <span>
+      <a href="./Ratings.js" className="right">
+        View all hostels
+      </a>
+    </span>
+  </h2>
+  <br />
+  <div className="product-container">
+    <div className="product-card">
+      <div className="product-image">
+        <img src="./pictures/room1.jpg" className="product-thumb" alt="" />
+      </div>
+      <div className="product-info">
+        <h2 className="product-brand">brand</h2>
+        <span className="price">ugshs 52000</span>
+        <span className="actual-price">ugshs 65000 </span>
+      </div>
+    </div>
+    <div className="product-card">
+      <div className="product-image">
+        <img src="./pictures/room1.jpg" className="product-thumb" alt="" />
+      </div>
+      <div className="product-info">
+        <h2 className="product-brand">brand</h2>
+        <span className="price">ugshs 64000</span>
+        <span className="actual-price">ugshs 85000 </span>
+      </div>
+    </div>
+    <div className="product-card">
+      <div className="product-image">
+        <img src="./pictures/room1.jpg" className="product-thumb" alt="" />
+      </div>
+      <div className="product-info">
+        <h2 className="product-brand">brand</h2>
+        <span className="price">ugshs 52000</span>
+        <span className="actual-price">ugshs 65000 </span>
+      </div>
+    </div>
+    <div className="product-card">
+      <div className="product-image">
+        <img src="./pictures/room1.jpg" className="product-thumb" alt="" />
+      </div>
+      <div className="product-info">
+        <h2 className="product-brand">brand</h2>
+        <span className="price">ugshs 52000</span>
+        <span className="actual-price">ugshs 65000 </span>
+      </div>
+    </div>
+    <div className="product-card">
+      <div className="product-image">
+        <img src="./pictures/room1.jpg" className="product-thumb" alt="" />
+      </div>
+      <div className="product-info">
+        <h2 className="product-brand">brand</h2>
+        <span className="price">ugshs 52000</span>
+        <span className="actual-price">ugshs 65000 </span>
+      </div>
+    </div>
+    <div className="product-card">
+      <div className="product-image">
+        <img src="../pictures/man8.jpg" className="product-thumb" alt="" />
+      </div>
+      <div className="product-info">
+        <h2 className="product-brand">brand</h2>
+        <span className="price">ugshs 52000</span>
+        <span className="actual-price">ugshs 65000 </span>
+      </div>
+    </div>
+    <div className="product-card">
+      <div className="product-image">
+        <img src="../pictures/kid9.jpg" className="product-thumb" alt="" />
+      </div>
+      <div className="product-info">
+        <h2 className="product-brand">brand</h2>
+        <span className="price">ugshs 52000</span>
+        <span className="actual-price">ugshs 65000 </span>
+      </div>
+    </div>
+  </div>
+</div>
 
-        </div>
-        <div class = "product-info">
-        <h2 class = "product-brand">brand</h2>
-        <span class = "price">ugshs 52000</span><span class = "actual-price">ugshs 65000 </span>
-        </div>
-        </div>
-        <div class = "product-card">
-            <div class = "product-image">
-            
-            <img src = "./pictures/room1.jpg" class = "product-thumb" alt = ""/>
-        </div>
-        <div class = "product-info">
-        <h2 class = "product-brand">brand</h2>
-        <span class = "price">ugshs 52000</span><span class = "actual-price">ugshs 65000 </span>
-        </div>
-        </div>
-        <div class = "product-card">
-            <div class = "product-image">
-            
-            <img src = "../pictures/man8.jpg" class = "product-thumb" alt = ""/>
-        
-        </div>
-        <div class = "product-info">
-        <h2 class = "product-brand">brand</h2>
-        <span class = "price">ugshs 52000</span><span class = "actual-price">ugshs 65000 </span>
-        </div>
-        </div>
-        <div class = "product-card">
-            <div class = "product-image">
-                
-            
-            <img src = "../pictures/kid9.jpg" class = "product-thumb" alt = ""/>
-        
-        </div>
-        <div class = "product-info">
-        <h2 class = "product-brand">brand</h2>
-    
-        <span class = "price">ugshs 52000</span><span class = "actual-price">ugshs 65000 </span>
-        </div>
-        </div>
-        </div>
-        </div>
          </div> 
          </div>     
                 

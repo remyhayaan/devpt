@@ -77,7 +77,7 @@ function Entry() {
     &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
     &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;{" "}
     <span>
-    <Link to="./Ratings.js">View all hostels</Link>
+    <Link to={'/ratings'}>View all hostels</Link>
       
     </span>
   </h2>

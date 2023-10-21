@@ -6,6 +6,7 @@ function Admin() {
     <div>
         <Header />
         admin
+        
     </div>
   )
 

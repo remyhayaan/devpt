@@ -16,10 +16,10 @@ function App() {
         <Route path='/about' element={< MyBookings />}/>
         <Route path='/services' element={<Services />}/>
         <Route path='/ratings' element={< Ratings />}/>
-        <Route path='/admin' elemen={< Admin/>} />
+        <Route path='/admin' element={< Admin/>} />
         
       </Routes>
-      <Admin/>
+      
       <Footer/>
     </div>
   );

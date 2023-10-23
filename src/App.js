@@ -7,13 +7,14 @@ import Ratings from './components/Ratings';
 import MyBookings from './components/About';
 import Footer from './components/Footer';
 import Admin from './components/Admin';
+import Hostels from './components/Hostels';
 
 function App() {
   return (
     <div className='App'>
       <Routes>
         <Route path='/' element={<Entry />}/>
-        <Route path='/about' element={< MyBookings />}/>
+        <Route path='/hostels' element={< Hostels />}/>
         <Route path='/services' element={<Services />}/>
         <Route path='/ratings' element={< Ratings />}/>
         <Route path='/admin' element={< Admin/>} />

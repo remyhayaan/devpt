@@ -14,7 +14,8 @@ function Entry() {
           {" "}
           Trust us to get you a home away from home
         </p>
-        <a href="#">Start Now</a>
+        <Link to={'/hostels'}>Start Now</Link>
+      
       </div>
     </section>
              <div class = "product">
@@ -76,7 +77,8 @@ function Entry() {
     &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
     &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
     &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;{" "}
-    <span>
+    <span className='price'>
+
     <Link to={'/ratings'}>View all hostels</Link>
       
     </span>

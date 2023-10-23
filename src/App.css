@@ -159,21 +159,20 @@ a.right:hover{
     font-size: 22px;
     border-radius: 10px;
   }
+  .content a:hover{
+background-color: black;
+  }
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
   body{
-      line-height: 1.5;
+    
       font-family: 'Poppins', sans-serif;
   }
  
-  .container{
-      max-width: 1170px;
-      margin:auto;
-      height: 2%;
-  }
+  
   .row{
       display: flex;
       flex-wrap: wrap;
-      height: 15%;
+      height: 40px;
   }
   ul{
       list-style: none;
@@ -242,9 +241,7 @@ a.right:hover{
       color: #24262b;
       background-color: #ffffff;
   }
-  .row{
-    height: 2%;
-  }
+  
   
   /*responsive*/
   @media(max-width: 767px){

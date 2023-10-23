@@ -5,7 +5,7 @@ function Services() {
   return (
     <div>
         <Header />
-        Login
+        Sign Up
     </div>
   )
 
